@@ -28,3 +28,16 @@ definition = favoriteWords["strategery"]
 
 favoriteWords["strategery"] = nil
 print(favoriteWords)
+
+var favCitiesAndCountries = [ "Stuttgart": "Germany", "Kingston":"Jamaica", "Barcelona":"Spain", "Havana":"Cuba", "Chicago":"America"]
+
+var whereIsHavana = favCitiesAndCountries["Havana"]
+
+favCitiesAndCountries["Chicago"] = nil
+
+favCitiesAndCountries["Reykjavik"] = "Iceland"
+
+favCitiesAndCountries
+
+
+
